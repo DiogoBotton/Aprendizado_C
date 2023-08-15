@@ -4,7 +4,7 @@
 
 * Utilizado apoio abaixo:
 WSL e Ambiente de Desenvolvimento em C
-https://www.youtube.com/watch?v=saRpmduQang
+(https://www.youtube.com/watch?v=saRpmduQang)
 
 * Instalação do MinGW:
 (https://sourceforge.net/projects/mingw/)
