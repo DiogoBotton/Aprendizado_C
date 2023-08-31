@@ -4,5 +4,5 @@
 # Para compilar, apenas digitar na linha de comando:
 # sh cpl.sh [nomeArquivo].c
 
-mkdir -p outputs
-gcc $1 -o "outputs/${1%.c}"
+mkdir -p outputs/Exercicios
+gcc $1 -o "outputs/${1%.c}" -lm
