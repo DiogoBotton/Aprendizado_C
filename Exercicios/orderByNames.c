@@ -15,8 +15,9 @@ void order(){
         for (int y = x+1; y < 10; y++)
         {
             // Função strcmp compara strings baseado na tabela ASCII
+            // names[x] é maior que names[y]?
             if(strcmp(names[x], names[y]) > 0){
-                // Copia nome menor para variável auxiliar
+                // Copia nome menor para variável auxiliar (valor de names[y] para aux)
                 strcpy(aux, names[y]);
 
                 // Coloca nome maior no y (um índice a frente)

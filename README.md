@@ -6,7 +6,10 @@
 WSL e Ambiente de Desenvolvimento em C
 (https://www.youtube.com/watch?v=saRpmduQang)
 
-* Instalação do MinGW:
+
+### Instalação do MinGW:
+
+* Necessário instalação do MinGW para funcionar o Intelisense do VS Code
 (https://sourceforge.net/projects/mingw/)
 
 * Instalar VS Code para Linguagem C/C++
