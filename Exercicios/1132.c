@@ -1,13 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    int min,max;
+    int x,y;
     int resultado = 0;
 
-    scanf("%d", &min);
-    scanf("%d", &max);
+    scanf("%d", &x);
+    scanf("%d", &y);
 
-    for (int i = min; i <= max; i++)
+    // Número x é maior que y? Se sim retorna x, do contrário retorna y
+    int numMax = x >= y ? x : y;
+
+    // Número x é menor que y? Se sim retorna x, do contrário retorna y
+    int numMin = x < y ? x : y; 
+
+    for (int i = numMin; i <= numMax; i++)
     {
         if(i % 13 != 0)
             resultado += i;
