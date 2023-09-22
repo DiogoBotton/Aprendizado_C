@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/Csharp/bin/Debug/net7.0/Csharp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Csharp",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}
