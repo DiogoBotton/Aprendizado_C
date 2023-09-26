@@ -1,0 +1,26 @@
+Para inicializar o VS Code no WSL:
+
+1° CTRL + SHIFT + P
+2° Selecionar >wsl: Connect to WSL using Distro...
+3° Selecionar o Ubuntu
+
+Após abrir, deverá ir até o caminho da pasta de desejo, no caso, abrir "Aprendizado_C":
+
+Exemplo:
+/mnt/c/Users/DiogoBotton/Desktop/Aprendizado_C/
+
+Para debugar:
+Utilizar a flag -g3 ou -g2 (A diferença é a forma de compilar para gerar o .out/.exe)
+
+Aqui o código é compilado de forma que consiga ser debugado:
+gcc -g3 pointersLevelHigh.c -o ./pointersLevelHigh
+ou
+clang -g3 pointersLevelHigh.c -o ./pointersLevelHigh
+
+Após isto, apertar F5.
+
+
+Requisitos para instalação:
+gdb (sudo apt install gdb)
+clang (sudo apt install clang)
+gcc (sudo apt install gcc)
