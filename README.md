@@ -31,7 +31,7 @@ WSL e Ambiente de Desenvolvimento em C
 // Declara uma variável do tipo inteiro que recebe o valor 0
 int numero = 0; 
 
-// Declara uma variável do tipo int que recebe um ponteiro para o endereço de memória da variável "numero"
+// Declara um ponteiro do tipo int que recebe um endereço de memória da variável "numero"
 int * ponteiro_num = &numero;
 
 // Declara uma variável do tipo int que recebe o valor do endereço de memória do ponteiro
